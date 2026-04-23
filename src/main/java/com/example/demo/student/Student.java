@@ -16,13 +16,14 @@ public class Student {
     public Student() {
     }
 
-    public Student(String name,
-                   Long id,
-                   String email,
-                   LocalDate dov,
-                   Integer age) {
-        this.name = name;
+    public Student(
+                    Long id,
+                    String name,
+                    String email,
+                    LocalDate dov,
+                    Integer age) {
         this.id = id;
+        this.name = name;
         this.email = email;
         this.dov = dov;
         this.age = age;
